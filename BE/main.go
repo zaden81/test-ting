@@ -11,6 +11,7 @@ import (
 func init() {
 	Initializers.LoadEnvironmentVariables()
 	Initializers.ConnectToDB()
+	Initializers.MigrateAndSeed()
 }
 
 func main() {
