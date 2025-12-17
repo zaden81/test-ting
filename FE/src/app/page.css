@@ -1,11 +1,111 @@
+.header {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  margin: 0;
+}
 
-/* 
-    This is the CSS file for the page component. 
-    It contains the styles for the header of the page.
-*/
-.header { 
-    background-color: #333;
-    color: white;
-    padding: 1em;
-    text-align: center;
+.wrap {
+  width: 900px;
+  margin: 16px auto;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.sub {
+  font-size: 13px;
+  color: #666;
+  margin-top: 4px;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #ddd;
+  background: #fafafa;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #f0f0f0;
+}
+
+.list {
+  height: 520px;
+  overflow-y: auto;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.itemTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.code {
+  font-weight: 700;
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  border: 1px solid #ddd;
+}
+
+.on {
+  background: #e8fff0;
+  border-color: #b8f0c8;
+}
+
+.off {
+  background: #fff1f1;
+  border-color: #f0b8b8;
+}
+
+.meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 16px;
+  font-size: 12px;
+}
+
+.meta span {
+  color: #666;
+}
+
+.empty {
+  padding: 16px;
+  color: #666;
 }
